@@ -9,7 +9,6 @@ import React, {useState, useEffect} from 'react';
 import {KeyboardAvoidingView, Platform, StyleSheet} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context'; // react-native-safe-area-context에서 가져옴
 import {SafeAreaProvider} from 'react-native-safe-area-context'; // SafeAreaProvider 추가
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import DateHead from './components/DateHead';
 import AddTodo from './components/AddTodo';
